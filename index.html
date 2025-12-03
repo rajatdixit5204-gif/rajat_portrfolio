@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | MCA Student</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- JavaScript -->
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- ========== HEADER / NAVBAR ========== -->
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo"><span>Rajat Dixit</span></div>
+
+      <nav class="nav" id="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#resume" class="nav-link">Resume</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== HERO / HOME SECTION ========== -->
+    <section id="home" class="section hero reveal">
+      <div class="container hero-container">
+        <div class="hero-text">
+          <p class="hero-tag">Hello, I'm</p>
+          <h1 class="hero-title">Rajat Dixit</h1>
+          <p class="hero-subtitle">MCA Student|AI/ML Enthusiast</p>
+
+          <p class="hero-description">
+         I am an MCA student passionate about software development and web technologies. I like turning ideas into working projects and learning new tools along the way.
+          </p>
+
+          <div class="hero-actions">
+            <a href="https://github.com/rajatdixit5204-gif" class="btn btn-primary">View Projects</a>
+            <a href="https://drive.google.com/file/d/1Ksz7obUywgM30tXjy5dudRmcUkSjMKg0/view?usp=sharing" class="btn btn-outline">Download Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <!-- Replace src with your own photo -->
+          <img src="rajat.jpg" alt="Your Name" class="hero-image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section id="about" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-divider"></div>
+
+        <div class="about-content">
+          <p>
+            I am an MCA student with a strong interest in full stack development, data structures, and problem solving.
+            I enjoy turning complex problems into simple, beautiful, and intuitive solutions.
+          </p>
+          <p>
+            My career goal is to work as a software engineer where I can contribute to impactful projects and continuously
+            grow my technical and professional skills.
+          </p>
+
+          <div class="about-highlights">
+            <div class="about-item">
+              <span class="about-label">Interests</span>
+              <p>Web Development, AI/ML, Distributed Systems, UI/UX</p>
+            </div>
+            <div class="about-item">
+              <span class="about-label">Strengths</span>
+              <p>Problem Solving, Teamwork, Adaptability, Communication</p>
+            </div>
+            <div class="about-item">
+              <span class="about-label">Career Goal</span>
+              <p>Full Stack Developer / Software Engineer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section id="skills" class="section section-alt reveal">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="section-divider"></div>
+
+        <div class="skills-grid">
+          <div class="skills-card">
+            <h3>Programming Languages</h3>
+            <div class="skill-tags">
+              <span class="tag">C</span>
+              <span class="tag">C++</span>
+              <span class="tag">Java</span>
+              <span class="tag">Python</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <h3>Frameworks & Libraries</h3>
+            <div class="skill-tags">
+              <span class="tag">React (Basics)</span>
+              <span class="tag">Node.js (Basics)</span>
+              <span class="tag">Express (Basics)</span>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <h3>Tools & Technologies</h3>
+            <div class="skill-tags">
+              <span class="tag">Git & GitHub</span>
+              <span class="tag">VS Code</span>
+              <span class="tag">REST APIs</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <h3>Soft Skills</h3>
+            <div class="skill-tags">
+              <span class="tag">Teamwork</span>
+              <span class="tag">Time Management</span>
+              <span class="tag">Communication</span>
+              <span class="tag">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="section-divider"></div>
+        <p class="section-intro">
+          Here are some of my major projects. Each project includes a short description, tech stack, and GitHub link.
+        </p>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-thumb">
+            </div>
+            <div class="project-content">
+              <h3>Attendance_Tracker</h3>
+              <p>
+                A web application to manage student records, attendance, and performance with secure authentication
+                and role-based access.
+              </p>
+              <p class="project-tech"><strong>Tech Stack:</strong>python</p>
+              <div class="project-links">
+                <a href="https://github.com/rajatdixit5204-gif/Attendance_tracker" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-thumb">
+            </div>
+            <div class="project-content">
+              <h3>Contact_Directory</h3>
+              <p>
+                A library system is a tool used to organize, manage, and track books and other materials in a library.
+              </p>
+              <p class="project-tech"><strong>Tech Stack:</strong> HTML, CSS, JavaScript, PHP</p>
+              <div class="project-links">
+                <a href="https://github.com/rajatdixit5204-gif/Contact_directory" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="https://via.placeholder.com/480x260.png?text=Project+4" alt="Project 4" />
+            </div>
+            <div class="project-content">
+              <h3>Personal Portfolio Website</h3>
+              <p>
+                A responsive portfolio site to showcase skills, projects, and achievements with smooth scrolling and
+                clean UI.
+              </p>
+              <p class="project-tech"><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+              <div class="project-links">
+                <a href="https://github.com/your-username/portfolio" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EDUCATION SECTION ========== -->
+    <section id="education" class="section section-alt reveal">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="section-divider"></div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>MCA (Master of Computer Applications)</h3>
+            <p class="timeline-institute">K.R,Mangalam University,Gurugram</p>
+            <p class="timeline-duration">2025 – 2027</p>
+            <p>Relevant coursework: Data Structures, DBMS, Web Technologies, Distributed Systems.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3>BCA(Bachelor of Computer Application)</h3>
+            <p class="timeline-institute">Modi Institute of Management and Technology,Kota</p>
+            <p class="timeline-duration">2022 – 2025</p>
+            <p>Graduated with strong foundations in core CS subjects and programming.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE SECTION (OPTIONAL) ========== -->
+    <section id="experience" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="section-divider"></div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>Certifications</h3>
+            <p class="timeline-institute">Machine Learning</p>
+            <ul class="timeline-list">
+              <li>Learning Algorithms & Models.</li>
+              <li>Model Training, Testing & Evaluation.</li>
+              <li>Data Handling & Feature Engineering.</li>
+            </ul>
+          </div>
+          <!-- Add more experience blocks if needed -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== RESUME SECTION ========== -->
+    <section id="resume" class="section section-alt reveal">
+      <div class="container">
+        <h2 class="section-title">Resume</h2>
+        <div class="section-divider"></div>
+
+        <p class="section-intro">
+          You can view or download my latest resume using the link below.
+        </p>
+
+        <!-- Replace the href with your actual Google Drive resume link -->
+        <a
+          href="https://drive.google.com/file/d/1Ksz7obUywgM30tXjy5dudRmcUkSjMKg0/view?usp=sharing"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-primary"
+        >
+          View / Download Resume (PDF)
+        </a>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section id="contact" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="section-divider"></div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p class="section-intro">
+              Feel free to reach out for project collaborations, internship opportunities, or just to say hello.
+            </p>
+
+            <ul class="contact-list">
+              <li><strong>Email:</strong>rajatdixit5204@gmail.com</li>
+              <li><strong>Phone:</strong> +91-7734026334</li>
+              <li><strong>GitHub:</strong> <a href="https://github.com/rajatdixit5204-gif" target="_blank" rel="noopener">github.com/your-username</a></li>
+              <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rajat-dixit14/" target="_blank" rel="noopener">linkedin.com/in/your-profile</a></li>
+              <li><strong>LeetCode:</strong> <a href="https://leetcode.com/u/Rajat5204/" target="_blank" rel="noopener">leetcode.com/your-id</a></li>
+            </ul>
+          </div>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>© <span id="year"></span>Rajat Dixit. All rights reserved.</p>
+      <p class="footer-subtext">Built with HTML, CSS, and JavaScript.</p>
+    </div>
+  </footer>
+</body>
+</html>
